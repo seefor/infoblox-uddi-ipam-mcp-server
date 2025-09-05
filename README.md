@@ -570,9 +570,9 @@ npm test
 
 ## Support
 
-- **Issues**: Report bugs and feature requests via [GitHub Issues](https://github.com/your-org/infoblox-uddi-ipam-mcp-server/issues)
+- **Issues**: Report bugs and feature requests via [GitHub Issues](https://github.com/seefor/infoblox-uddi-ipam-mcp-server/issues)
 - **Documentation**: Additional documentation available in the `/docs` folder
-- **Community**: Join our discussions in [GitHub Discussions](https://github.com/your-org/infoblox-uddi-ipam-mcp-server/discussions)
+- **Community**: Join our discussions in [GitHub Discussions](https://github.com/seefor/infoblox-uddi-ipam-mcp-server/discussions)
 
 ## License
 
