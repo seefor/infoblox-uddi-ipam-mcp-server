@@ -1,0 +1,64 @@
+{
+  "name": "infoblox-uddi-ipam-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Infoblox BloxOne DDI IPAM and DHCP management",
+  "main": "server.js",
+  "bin": {
+    "infoblox-mcp-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --inspect server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "infoblox",
+    "uddi",
+    "ipam",
+    "dhcp",
+    "network-management",
+    "bloxone-ddi"
+  ],
+  "author": "Infoblox Integration Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.7.0",
+    "build": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/infoblox-uddi-ipam-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/infoblox-uddi-ipam-mcp-server/issues"
+  },
+  "homepage": "https://github.com/your-org/infoblox-uddi-ipam-mcp-server#readme",
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "mcp": {
+    "server": {
+      "name": "infoblox-uddi-ipam",
+      "description": "Infoblox BloxOne DDI IPAM and DHCP management server",
+      "command": "node",
+      "args": [
+        "server.js"
+      ],
+      "env": {
+        "INFOBLOX_API_KEY": "required",
+        "INFOBLOX_BASE_URL": "optional"
+      }
+    }
+  }
+}
